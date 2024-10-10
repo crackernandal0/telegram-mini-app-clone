@@ -1,0 +1,54 @@
+.farming {
+    /* display: flex; */
+    align-items: center;
+
+    /* width: 280px; */
+    background-color: #444;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .mine-container{
+    margin-top: 120px;
+
+  }
+  .time-left {
+    color: gray;
+  }
+
+  .start-mining-btn, .claim-mine-btn {
+    width: -webkit-fill-available;
+    background-color: #545c54;
+    color: white;
+    padding: 14px 17px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 26px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  
+  .start-mining-btn:hover, .claim-mine-btn:hover {
+    background-color: #545c54;
+  }
+  
+  .farming {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .time-left {
+    font-weight: bold;
+    color: #ff0000;
+  }
+  

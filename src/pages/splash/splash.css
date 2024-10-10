@@ -1,0 +1,21 @@
+.loader-line {
+  position: absolute;
+  bottom: 20;
+      overflow: hidden;
+  }
+  
+  .loading-bar {
+   
+    width: 0;
+    animation: loading 4s ease-in-out forwards;
+  }
+  
+  @keyframes loading {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
